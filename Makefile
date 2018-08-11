@@ -1,5 +1,5 @@
 # OBJS specifies which files to compile as part of the project
-OBJS = 01_hello_SDL.cpp
+OBJS = 01.cpp
 
 # CC specifies which compiler we're using
 CC = g++
@@ -19,7 +19,7 @@ COMPILER_FLAGS = -w -Wl,-subsystem,windows
 LINKER_FLAGS = -lmingw32 -lSDL2main -lSDL2
 
 # OBJ_NAME specifies the name of our executable
-OBJ_NAME = 01_hello_SDL
+OBJ_NAME = 01
 
 # This is the target that compiles our executable
 all: $(OBJS)
